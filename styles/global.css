@@ -14,7 +14,7 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 20px;
 }
 
@@ -47,17 +47,17 @@ a {
   text-decoration: underline;
 }
 
-a:hover{
+a:hover {
   opacity: .7;
   text-decoration: underline;
 }
 
-a:focus{
+a:focus {
   opacity: .7;
   text-decoration: underline;
 }
 
-a:visited{
+a:visited {
   text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ button {
   cursor: pointer;
 }
 
-address{
+address {
   font-style: normal;
 }
 

@@ -1,4 +1,4 @@
-.overlay{
+.overlay {
 
   position: absolute;
   inset: 0;
@@ -6,27 +6,27 @@
   background-color: rgba(0, 0, 0, .6);
 }
  
-.aligned-text{
+.aligned-text {
   display: block;
 }
 
-.aligned-text--center{
+.aligned-text--center {
   text-align: center;
 }
 
-.aligned-text--right{
+.aligned-text--right {
   text-align: right;
 }
 
-.letter-spacing--extended--60{
+.letter-spacing--extended--60 {
   letter-spacing: 60px;
 }
 
-.letter-spacing--none{
+.letter-spacing--none {
   letter-spacing: 0;
 }
 
-.line-height--extended--115{
+.line-height--extended--115 {
   line-height: 1.15;
 }
  
