@@ -1,7 +1,3 @@
-/* TODO: 
-Разобраться с кнопкой
-*/
-
 :root {
 
   --font: Raleway;
@@ -19,6 +15,7 @@ html {
 }
 
 body {
+
   min-width: var(--width-desktop);
   max-width: var(--width-desktop);
   margin: 0;
@@ -44,21 +41,24 @@ blockquote {
 a {
 
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid black;
 }
 
 a:hover {
+
   opacity: .7;
-  text-decoration: underline;
+  border-bottom: 1px solid black;
 }
 
 a:focus {
+
   opacity: .7;
-  text-decoration: underline;
+  border-bottom: 1px solid black;
 }
 
 a:visited {
-  text-decoration: none;
+  border-bottom: none;
 }
 
 button {
