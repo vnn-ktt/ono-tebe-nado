@@ -1,25 +1,47 @@
-:root {
+/* TODO: 
+	1. Отсутствие скролла от 1100px
 
-  --font: Raleway;
-  --width-desktop: 1440px;
+	2. Перенос третьей карточки на новую линию до 1440px
+	По заданию в проекте при сужении экрана карточка 
+	в блоке lots должна перенестись на новую строку, 
+	при переносе ширина карточки должна занимать всё 
+	свободное пространство по ширине контейнера. 
+	Чтобы это реализовать нужно удалить фиксированную ширину 
+	у блока lots (в том числе и ту, которая задается через 
+	переменную для всей страницы). 
+
+	3. Логотип в хедере
+	Не нужно позиционировать этот элемент абсолютно. 
+	Использование абсолютное позиционирование приводит к тому, 
+	что блок выпадает из потока. 
+ 	Такое поведение является нежелательным в большинстве случаев, 
+	особенно для элементов, содержащих динамический контент. 
+ 	При изменении контента - другие блоки не видят данные 
+	изменения и верстка может начать некорректно отображаться.
+
+	4. Собрать стили в один файл
+*/
+
+:root {
+	--font: Raleway;
+	--width-desktop: 1440px;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-  font-size: 20px;
+	font-size: 20px;
 }
 
 body {
-
-  min-width: var(--width-desktop);
-  max-width: var(--width-desktop);
-  margin: 0;
-  font-family: var(--font), sans-serif;
+	min-width: var(--width-desktop);
+	max-width: var(--width-desktop);
+	margin: 0 auto;
+	font-family: var(--font), sans-serif;
 }
 
 h1,
@@ -33,48 +55,43 @@ ul,
 ol,
 li,
 blockquote {
-
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 a {
-
-  color: inherit;
-  text-decoration: none;
-  border-bottom: 1px solid black;
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 1px solid black;
 }
 
 a:hover {
-
-  opacity: .7;
-  border-bottom: 1px solid black;
+	opacity: 0.7;
+	border-bottom: 1px solid black;
 }
 
 a:focus {
-
-  opacity: .7;
-  border-bottom: 1px solid black;
+	opacity: 0.7;
+	border-bottom: 1px solid black;
 }
 
 a:visited {
-  border-bottom: none;
+	border-bottom: none;
 }
 
 button {
-
-  display: inline-block;
-  border: none;
-  padding: 0;
-  color: inherit;
-  background-color: transparent;
-  cursor: pointer;
+	display: inline-block;
+	border: none;
+	padding: 0;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
 }
 
 address {
-  font-style: normal;
+	font-style: normal;
 }
 
 img {
-  width: 100%;
+	width: 100%;
 }

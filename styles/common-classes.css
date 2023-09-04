@@ -1,45 +1,42 @@
 .overlay {
-  
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  inset: 0;
-  background-color: rgba(0, 0, 0, .6);
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	inset: 0;
+	background-color: rgba(0, 0, 0, 0.6);
 }
- 
-.address {
 
-  line-height: 1.35;
-  font-size: 18px;
+.address {
+	line-height: 1.35;
+	font-size: 18px;
 }
 
 .aligned-text {
-  display: block;
+	display: block;
 }
 
-.aligned-text--center {
-  text-align: center;
+.aligned-text_center {
+	text-align: center;
 }
 
-.aligned-text--right {
-  text-align: right;
+.aligned-text_right {
+	text-align: right;
 }
 
-.letter-spacing--extended--60 {
-  letter-spacing: 60px;
+.letter-spacing-extended-60px {
+	letter-spacing: 60px;
 }
 
-.letter-spacing--none {
-  letter-spacing: 0;
+.letter-spacing-none {
+	letter-spacing: 0;
 }
 
-.line-height--extended--115 {
-  line-height: 1.15;
+.line-height-extended-115px {
+	line-height: 1.15;
 }
 
-.resized-width--1310px {
-  
-  min-width: 1310px;
-  max-width: 1310px
+.resized-width-1310px {
+	min-width: 1310px;
+	max-width: 1310px;
 }
