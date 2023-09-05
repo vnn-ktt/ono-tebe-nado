@@ -1,6 +1,6 @@
 .header {
 	display: flex;
-	width: var(--width-desktop);
+	width: 100%;
 	background-color: #fff;
 }
 
@@ -66,11 +66,11 @@
 	pointer-events: none;
 }
 
-.header__links-list-item_active .header__link {
+.header__links-list-item_active .header__link:hover {
 	opacity: 1;
 }
 
-.header__links-list-item_active .header__link {
+.header__links-list-item_active .header__link:focus {
 	opacity: 1;
 }
 

@@ -1,5 +1,6 @@
 .lots {
 	display: flex;
+	width: 100%;
 	background-color: #fff;
 }
 
@@ -25,8 +26,7 @@
 }
 
 .lots__card-list-item {
-	flex-grow: 1;
-	flex-basis: 430px;
+	flex: 1 0 430px;
 	height: 450px;
 	list-style: none;
 }

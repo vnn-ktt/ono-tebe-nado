@@ -1,6 +1,5 @@
 .footer {
-	width: var(--width-desktop);
-	height: auto;
+	width: 100%;
 	background-color: #fff;
 }
 
@@ -9,7 +8,6 @@
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	width: inherit;
-	height: inherit;
 	padding: 180px 50px 90px;
 }
 
@@ -38,11 +36,11 @@
 	pointer-events: none;
 }
 
-.footer__links-list-item_active .footer__link {
+.footer__links-list-item_active .footer__link:hover {
 	opacity: 1;
 }
 
-.footer__links-list-item_active .footer__link {
+.footer__links-list-item_active .footer__link:focus {
 	opacity: 1;
 }
 

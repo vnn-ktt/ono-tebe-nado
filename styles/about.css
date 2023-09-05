@@ -1,6 +1,6 @@
 .about {
 	display: flex;
-	width: var(--width-desktop);
+	width: 100%;
 	background-color: #fff;
 }
 
@@ -9,7 +9,6 @@
 	justify-content: stretch;
 	gap: 25px;
 	width: inherit;
-	height: inherit;
 	margin: auto;
 	padding: 0 50px;
 }

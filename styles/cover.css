@@ -1,72 +1,62 @@
 .cover {
-   
-   position: relative;
-   width: var(--width-desktop);
-   height: 757px;
-   padding: 165px 50px 50px;
-   background: url(../images/cover.jpg) center / cover no-repeat;
+	position: relative;
+	width: 100%;
+	padding: 165px 50px 50px;
+	background: url(../images/cover.jpg) center / cover no-repeat;
 }
 
 .cover__title {
-
-   position: relative;
-   z-index: 2;
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   color: #fff;
-   font-weight: bold;
-   font-size: 5rem;
-   line-height: 1;
-   letter-spacing: 30px;
-   text-transform: uppercase;
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 5rem;
+	line-height: 1;
+	letter-spacing: 30px;
+	text-transform: uppercase;
 }
 
 .cover__description {
-
-   position: relative;
-   z-index: 2;
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
-   align-items: center;
-   margin-top: 135px;
+	position: relative;
+	z-index: 2;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 135px;
+	color: #fff;
 }
 
 .cover__description-text {
-
-   margin-right: 78.5px;
-   color: #fff;
-   font-size: 22px;
-   line-height: 28px;
-   text-transform: uppercase;
-   word-spacing: 18px;
+	margin-right: 78.5px;
+	font-size: 22px;
+	line-height: 28px;
+	text-transform: uppercase;
+	word-spacing: 18px;
 }
 
 .cover__description-bet-button {
-   
-   width: 257px;
-   height: 52px;
-   border: 1px solid #fff;
-   color: #FFF;
-   font-family: var(--font), sans-serif;
-   font-weight: 400;
-   font-size: 22px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: ease-in-out .5s box-shadow;
+	width: 257px;
+	height: 52px;
+	border: 1px solid #fff;
+	font-family: var(--font), sans-serif;
+	font-size: 22px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: ease-in-out 0.5s box-shadow;
 }
 
 .cover__description-bet-button:hover {
-  
-   box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
-   -webkit-box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
-   -moz-box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
- }
- 
- .cover__description-bet-button:focus {
- 
-   box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
-   -webkit-box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
-   -moz-box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
- }
+	box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
+	-webkit-box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
+}
+
+.cover__description-bet-button:focus {
+	box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
+	-webkit-box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: 0px -10px 40px 15px rgba(255, 255, 255, 0.5);
+}
